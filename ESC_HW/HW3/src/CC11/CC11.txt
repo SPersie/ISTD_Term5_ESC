@@ -1,0 +1,1 @@
+No. The false condition of y <1 will never be tested. If the false state is tested, x +y will be larger than 1000, it will even never enter the while loop.

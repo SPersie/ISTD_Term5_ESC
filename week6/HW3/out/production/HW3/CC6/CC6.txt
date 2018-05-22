@@ -1,0 +1,13 @@
+Test 1(Success):
+	1. Valid email address.
+	2. Subject smaller than 1MB.
+Test 2(Fail):
+	1. Invalid sending email address.(eg. %@*$&*@mail.com)
+Test 3(Fail):
+	1. Subject larger than 1MB.
+Test 4(Fail):
+	1. Invalid mail server.(eg. .stud.eud.gs)
+Test 5(Fail):
+	1. Invalid outgoing server.(eg. .stud.ed.sg)
+Test 6(Fail):
+	1. No internet connection

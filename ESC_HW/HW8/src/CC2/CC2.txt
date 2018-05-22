@@ -1,0 +1,7 @@
+1. Thread =1000: single thread: 9564; 100 threads: 549
+2. Thread =100: single thread: 223; 100 threads: 213
+3. Thread =10: single thread: 64; 100 threads: 39
+
+The same as the first one. When the number of threads reaches a certain number, the performance of multi threads
+ will be much better than single thread. Otherwise, single thread has better performance than multi threads.
+ The performance of fixed thread pool is always better than un-fixed threads.

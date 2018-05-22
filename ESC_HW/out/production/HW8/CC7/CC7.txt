@@ -1,0 +1,19 @@
+1. The first method I use is AtomicInteger. Since increamentAndGet() method is CAS-based, the counter by using AtomicInteger is CAS-based counter. Following is the result:
+number of threads: 32	Total Time: 20503361
+number of threads: 42	Total Time: 17841266
+number of threads: 52	Total Time: 12896120
+number of threads: 62	Total Time: 18008926
+number of threads: 72	Total Time: 20645971
+number of threads: 82	Total Time: 22855866
+number of threads: 92	Total Time: 25644501
+
+2. The second method is a lock-based counter. I use increment() to increase the counter value. And following is the result.
+number of threads: 32	Total Time: 56568653
+number of threads: 42	Total Time: 58785315
+number of threads: 52	Total Time: 32592294
+number of threads: 62	Total Time: 39357826
+number of threads: 72	Total Time: 45483885
+number of threads: 82	Total Time: 51572057
+number of threads: 92	Total Time: 56234085
+
+3. Clearly, CAS-based counter took much less time than lock-based counter.

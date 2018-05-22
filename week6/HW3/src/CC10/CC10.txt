@@ -1,0 +1,6 @@
+4^0 +4^1 +... +4^100
+For one while loop, there are four different paths.
+1. Threshold -1; Threshold -3 (eg. x =10, y =0)
+2. Threshold -1; Threshold +1 (eg. x =1002, y =-3)
+3. Threshold -3		      (eg. x =1, y =13)
+4. Threshold -2; Threshold -3 (eg. x =6, y =10)

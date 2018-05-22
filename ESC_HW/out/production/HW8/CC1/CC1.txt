@@ -1,0 +1,6 @@
+1. Thread =1000: single thread: 9564; multi threads: 3823
+2. Thread =100: single thread: 223; multi threads: 324
+3. Thread =10: single thread: 64; multi threads: 146
+
+When the number of threads reaches a certain number, the performance of multi threads
+will be much better than single thread. Otherwise, single thread has better performance than multi threads.

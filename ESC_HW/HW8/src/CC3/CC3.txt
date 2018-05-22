@@ -1,0 +1,11 @@
+Number of threads: Time
+100: 5964
+50: 5769
+25: 5621
+12: 5721
+20: 5642
+22: 5501
+23: 5422
+24: 5587
+
+When the number of threads is 23, it has the best performance time.
